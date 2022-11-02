@@ -1,0 +1,40 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --nav-font-color:#333;
+    --nav-bg-color:#eee;
+    --container-font-color:purple;
+    --container-bg-color:rgb(200, 214, 226);
+}
+
+.dark-thema{
+    --nav-font-color:#eee;
+    --nav-bg-color:rgb(114, 109, 109);
+    --container-font-color:gold;
+    --container-bg-color:rgb(51, 49, 49);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--nav-font-color);
+    background-color: var(--nav-bg-color);
+    padding: 1rem;
+    transition: 0.8s ease all;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: var(--container-font-color);
+    background-color:var(--container-bg-color);
+    transition: 0.8s ease all;
+}
